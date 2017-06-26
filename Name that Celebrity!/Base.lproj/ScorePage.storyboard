@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="czx-DF-sJf">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller2-->
+        <scene sceneID="bSY-Ok-5Xs">
+            <objects>
+                <viewController storyboardIdentifier="ScorePage" id="czx-DF-sJf" customClass="ViewController2" customModule="Name_that_Celebrity_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Hl-Wp-quV"/>
+                        <viewControllerLayoutGuide type="bottom" id="fog-oj-Ajk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tr1-ph-c0l">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gold" translatesAutoresizingMaskIntoConstraints="NO" id="RQJ-rw-mJY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Score: -/7" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPh-g0-YuU">
+                                <rect key="frame" x="34" y="93" width="253" height="103"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="103" id="8c2-BC-cgy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Excellent!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ccj-aJ-7LF">
+                                <rect key="frame" x="6" y="271" width="308" height="201"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VPh-g0-YuU" firstAttribute="leading" secondItem="tr1-ph-c0l" secondAttribute="leadingMargin" constant="18" id="3hR-7u-LkG"/>
+                            <constraint firstItem="RQJ-rw-mJY" firstAttribute="top" secondItem="tr1-ph-c0l" secondAttribute="top" id="9Jg-l4-ZUS"/>
+                            <constraint firstItem="Ccj-aJ-7LF" firstAttribute="top" secondItem="VPh-g0-YuU" secondAttribute="bottom" constant="75" id="IHf-UX-Nk3"/>
+                            <constraint firstItem="fog-oj-Ajk" firstAttribute="top" secondItem="Ccj-aJ-7LF" secondAttribute="bottom" constant="96" id="JVu-CU-2hp"/>
+                            <constraint firstItem="RQJ-rw-mJY" firstAttribute="leading" secondItem="tr1-ph-c0l" secondAttribute="leading" id="RcV-QP-n2P"/>
+                            <constraint firstItem="RQJ-rw-mJY" firstAttribute="centerX" secondItem="Ccj-aJ-7LF" secondAttribute="centerX" id="hjw-kP-IkH"/>
+                            <constraint firstItem="RQJ-rw-mJY" firstAttribute="bottom" secondItem="fog-oj-Ajk" secondAttribute="top" id="luE-5l-g9r"/>
+                            <constraint firstAttribute="trailing" secondItem="RQJ-rw-mJY" secondAttribute="trailing" id="ngE-8G-uUz"/>
+                            <constraint firstItem="VPh-g0-YuU" firstAttribute="centerX" secondItem="Ccj-aJ-7LF" secondAttribute="centerX" id="npK-hS-Oyb"/>
+                            <constraint firstItem="VPh-g0-YuU" firstAttribute="top" secondItem="5Hl-Wp-quV" secondAttribute="bottom" constant="73" id="pd0-RC-xrm"/>
+                            <constraint firstItem="Ccj-aJ-7LF" firstAttribute="leading" secondItem="tr1-ph-c0l" secondAttribute="leadingMargin" constant="-10" id="rqb-H3-pwc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="commentsLabel" destination="Ccj-aJ-7LF" id="uSe-E3-d3A"/>
+                        <outlet property="finalScoreLabel" destination="VPh-g0-YuU" id="oOZ-De-Gfb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q9q-Yj-MvZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="637.5" y="113.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Gold" width="320" height="568"/>
+    </resources>
+</document>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Name_that_Celebrity_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gold" translatesAutoresizingMaskIntoConstraints="NO" id="M9Z-Lu-Ham">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="James Franco" translatesAutoresizingMaskIntoConstraints="NO" id="wSf-Td-t2T">
+                                <rect key="frame" x="82" y="65" width="156" height="194"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUG-gC-T4E">
+                                <rect key="frame" x="40" y="333" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Ne4-qG-lSq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="1: Adam Levine">
+                                    <color key="titleColor" red="1" green="0.35302850229999999" blue="0.083679226549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ER-st-Ceh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DD1-gk-GXY">
+                                <rect key="frame" x="40" y="376" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7LG-gF-ezB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="2: James Franco">
+                                    <color key="titleColor" red="1" green="0.35302850229999999" blue="0.083679226549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ly1-Jr-6cC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLT-5d-cdh">
+                                <rect key="frame" x="40" y="422" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7Ea-oR-glo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="3: Brad Pitt">
+                                    <color key="titleColor" red="1" green="0.35302850229999999" blue="0.083679226549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oml-ts-GUr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uew-Ul-RSV">
+                                <rect key="frame" x="40" y="467" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="oKx-nl-yOg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="4: Zac Efron">
+                                    <color key="titleColor" red="1" green="0.35302850229999999" blue="0.083679226549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FhS-rg-cVf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YwP-zd-lk5">
+                                <rect key="frame" x="40" y="20" width="240" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="fzf-40-m9G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hint: He used to enjoy painting in his spare time." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2D-OG-lk5">
+                                <rect key="frame" x="40" y="267" width="240" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="OeQ-bh-NLo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FUG-gC-T4E" firstAttribute="top" secondItem="t2D-OG-lk5" secondAttribute="bottom" constant="8" id="8nP-gO-fau"/>
+                            <constraint firstItem="wSf-Td-t2T" firstAttribute="leading" secondItem="t2D-OG-lk5" secondAttribute="leading" constant="42" id="EUG-jS-ezP"/>
+                            <constraint firstAttribute="trailing" secondItem="M9Z-Lu-Ham" secondAttribute="trailing" id="GUc-1h-MmA"/>
+                            <constraint firstItem="DD1-gk-GXY" firstAttribute="top" secondItem="FUG-gC-T4E" secondAttribute="bottom" constant="13" id="IcP-Vd-1dj"/>
+                            <constraint firstItem="t2D-OG-lk5" firstAttribute="leading" secondItem="FUG-gC-T4E" secondAttribute="leading" id="J4i-lC-LNi"/>
+                            <constraint firstItem="FUG-gC-T4E" firstAttribute="leading" secondItem="DD1-gk-GXY" secondAttribute="leading" id="JkN-Ck-VXQ"/>
+                            <constraint firstItem="wSf-Td-t2T" firstAttribute="trailing" secondItem="t2D-OG-lk5" secondAttribute="trailing" constant="-42" id="JyK-Cb-YTt"/>
+                            <constraint firstAttribute="trailing" secondItem="wSf-Td-t2T" secondAttribute="trailing" constant="82" id="MKn-gS-dqi"/>
+                            <constraint firstItem="YwP-zd-lk5" firstAttribute="trailing" secondItem="wSf-Td-t2T" secondAttribute="trailing" constant="42" id="Qtn-7i-qTR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uew-Ul-RSV" secondAttribute="bottom" constant="71" id="Scw-Ix-ZnS"/>
+                            <constraint firstItem="wLT-5d-cdh" firstAttribute="leading" secondItem="uew-Ul-RSV" secondAttribute="leading" id="SyM-rm-VeM"/>
+                            <constraint firstItem="YwP-zd-lk5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Vnk-In-eub"/>
+                            <constraint firstItem="FUG-gC-T4E" firstAttribute="trailing" secondItem="DD1-gk-GXY" secondAttribute="trailing" id="WNs-ah-xvJ"/>
+                            <constraint firstItem="DD1-gk-GXY" firstAttribute="trailing" secondItem="wLT-5d-cdh" secondAttribute="trailing" id="WTl-jH-IWf"/>
+                            <constraint firstItem="M9Z-Lu-Ham" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WnU-Kq-bpU"/>
+                            <constraint firstItem="wLT-5d-cdh" firstAttribute="top" secondItem="DD1-gk-GXY" secondAttribute="bottom" constant="16" id="aDi-pi-3TE"/>
+                            <constraint firstItem="YwP-zd-lk5" firstAttribute="leading" secondItem="wSf-Td-t2T" secondAttribute="leading" constant="-42" id="fQ1-Na-XKe"/>
+                            <constraint firstItem="DD1-gk-GXY" firstAttribute="leading" secondItem="wLT-5d-cdh" secondAttribute="leading" id="ghy-7k-sIj"/>
+                            <constraint firstItem="wSf-Td-t2T" firstAttribute="top" secondItem="YwP-zd-lk5" secondAttribute="bottom" constant="10" id="iIp-CO-DAy"/>
+                            <constraint firstAttribute="bottom" secondItem="M9Z-Lu-Ham" secondAttribute="bottom" id="l96-yH-ZVI"/>
+                            <constraint firstItem="t2D-OG-lk5" firstAttribute="top" secondItem="wSf-Td-t2T" secondAttribute="bottom" constant="8" id="nFo-10-rrV"/>
+                            <constraint firstItem="M9Z-Lu-Ham" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uGn-Xk-9jA"/>
+                            <constraint firstItem="uew-Ul-RSV" firstAttribute="top" secondItem="wLT-5d-cdh" secondAttribute="bottom" constant="15" id="uwC-eA-FtC"/>
+                            <constraint firstItem="t2D-OG-lk5" firstAttribute="trailing" secondItem="FUG-gC-T4E" secondAttribute="trailing" id="vA3-Ce-4dJ"/>
+                            <constraint firstItem="wLT-5d-cdh" firstAttribute="trailing" secondItem="uew-Ul-RSV" secondAttribute="trailing" id="vPB-bA-MKT"/>
+                            <constraint firstItem="wSf-Td-t2T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="82" id="wWB-oF-N3Y"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Button1" destination="FUG-gC-T4E" id="11w-j0-Soq"/>
+                        <outlet property="Button2" destination="DD1-gk-GXY" id="dxF-ou-MVl"/>
+                        <outlet property="Button3" destination="wLT-5d-cdh" id="3l1-rM-TLc"/>
+                        <outlet property="Button4" destination="uew-Ul-RSV" id="AH4-2X-a35"/>
+                        <outlet property="hintLabel" destination="t2D-OG-lk5" id="DJS-xr-yUH"/>
+                        <outlet property="pictureimage" destination="wSf-Td-t2T" id="DIs-mQ-zWn"/>
+                        <outlet property="questionLabel" destination="YwP-zd-lk5" id="vdp-rF-gbX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="34.632683658170919"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Gold" width="320" height="568"/>
+        <image name="James Franco" width="214" height="317"/>
+    </resources>
+</document>

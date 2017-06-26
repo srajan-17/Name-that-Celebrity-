@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gold" translatesAutoresizingMaskIntoConstraints="NO" id="iSr-B4-QBl">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME THAT CELEBRITY!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysc-Yn-Va6">
+                                <rect key="frame" x="16" y="53" width="288" height="143"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="143" id="Qvg-Wl-CUM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Star" translatesAutoresizingMaskIntoConstraints="NO" id="3QL-Ef-M1t">
+                                <rect key="frame" x="44" y="225" width="233" height="224"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="iSr-B4-QBl" secondAttribute="bottom" id="B5S-ka-3Uf"/>
+                            <constraint firstItem="iSr-B4-QBl" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="QDn-Q6-wPm"/>
+                            <constraint firstItem="iSr-B4-QBl" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="YT7-6c-hqA"/>
+                            <constraint firstItem="3QL-Ef-M1t" firstAttribute="leading" secondItem="ysc-Yn-Va6" secondAttribute="leading" constant="28" id="Yc0-sA-YtK"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="3QL-Ef-M1t" secondAttribute="bottom" constant="119" id="bob-25-XxR"/>
+                            <constraint firstItem="ysc-Yn-Va6" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="16" id="mk1-Sc-Sv4"/>
+                            <constraint firstAttribute="trailing" secondItem="ysc-Yn-Va6" secondAttribute="trailing" constant="16" id="vZx-ll-hoK"/>
+                            <constraint firstItem="ysc-Yn-Va6" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="33" id="wBX-Y6-rvi"/>
+                            <constraint firstItem="3QL-Ef-M1t" firstAttribute="top" secondItem="ysc-Yn-Va6" secondAttribute="bottom" constant="29" id="xhu-KJ-BAA"/>
+                            <constraint firstAttribute="trailing" secondItem="iSr-B4-QBl" secondAttribute="trailing" id="z7H-uq-L2p"/>
+                            <constraint firstItem="3QL-Ef-M1t" firstAttribute="trailing" secondItem="ysc-Yn-Va6" secondAttribute="trailing" constant="-27" id="zwC-Jh-355"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Gold" width="320" height="568"/>
+        <image name="Star" width="240" height="243"/>
+    </resources>
+</document>
